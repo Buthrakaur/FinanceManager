@@ -31,6 +31,7 @@ namespace FinanceManager.ViewModels
         protected override void OnShutdown()
         {
             LatestAdditions.Clear();
+
             base.OnShutdown();
         }
     }
